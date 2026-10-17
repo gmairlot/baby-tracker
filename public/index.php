@@ -100,7 +100,7 @@
     <section class="card" aria-labelledby="titre-journal">
       <h2 id="titre-journal">Journal du jour</h2>
       <ol class="timeline">
-        <!-- Exemple statique : PHP générera ces éléments à l'étape 6 -->
+        <!-- Placeholder : PHP générera ces éléments à partir des données collectées et stockées -->
         <li class="event event-feeding">
           <time>08:15</time>
           <span class="event-label">🍼 Tétée, sein gauche, 12 min</span>
