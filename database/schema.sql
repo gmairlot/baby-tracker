@@ -7,6 +7,6 @@ CREATE TABLE IF NOT EXISTS events (
   duration_min INTEGER CHECK (duration_min >= 0),
   amount_ml    INTEGER CHECK (amount_ml >= 0),
   diaper_kind  TEXT CHECK (diaper_kind IN ('wet', 'dirty', 'both')),
-  notes        TEXT,
+  notes        TEXT CHECK (length(notes) <= 200),
   created_at   TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
