@@ -93,6 +93,8 @@ legend { font-weight: 600; margin-bottom: 0.5rem; }
 }
 .type-fields { display: grid; gap: 1rem; }
 
+.type-fields[hidden] { display: none; }
+
 .btn-primary {
   font: inherit;
   font-weight: 600;
